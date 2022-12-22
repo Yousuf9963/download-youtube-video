@@ -1,23 +1,33 @@
-print("[&] Coded By Yousuf Shafi'i Muhammad Junior Programmer.")
-print("")
-print("[-] Website muhammadabdirahman.wixsite.com/yousuf9963blog.")
+print("Thank you")
 
-print("")
+print("[+] Tool Namee:Find-Website-IP")
+
+print("[+] Author:Yousuf Shafi'i Muhammad.(Junior Programmer")
+
+print("[+] Version:1.3")
+
+print("[+] Team:Junior Programmers")
+
+print("[+] Github:https://github.com/Yousuf9963/phone-num-info")
+
+print("[+] Follow me on Github: https://github.com/Yousuf9963")
+
+print("[-] Website muhammadabdirahman.wixsite.com/yousuf9963blog.")
 
 print("[!] legal disclaimer: Usage of this Program for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program.")
 
-print("")
-
-print("I hope for you good future and i am willing that you will come high effort.")
+print("[+] I hope for you good future and i am willing that you will come high effort.")
 
 print("")
 
-from pytube import YouTube
+import pytube
 
 except ModuleNotFoundError:
     print("\033[1;31;40m Some requirements are missing!\n\nRun \"pip install -r requirements.txt\" then run \"python3 download-youtube-video.py \"\033[1;37;40m" )
     t.sleep(2)
     exit()
+    
+    from pytube import YouTube
     
 def Download(link):
     youtubeObject = YouTube(link)
