@@ -8,7 +8,7 @@ print("[+] Version:1.3")
 
 print("[+] Team:Junior Programmers")
 
-print("[+] Github:https://github.com/Yousuf9963/phone-num-info")
+print("[+] Github:https://github.com/Yousuf9963/download-youtube-video")
 
 print("[+] Follow me on Github: https://github.com/Yousuf9963")
 
