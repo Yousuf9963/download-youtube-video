@@ -14,6 +14,11 @@ print("")
 
 from pytube import YouTube
 
+except ModuleNotFoundError:
+    print("\033[1;31;40m Some requirements are missing!\n\nRun \"pip install -r requirements.txt\" then run \"python3 download-youtube-video.py \"\033[1;37;40m" )
+    t.sleep(2)
+    exit()
+    
 def Download(link):
     youtubeObject = YouTube(link)
     youtubeObject = youtubeObject.streams.get_highest_resolution()
